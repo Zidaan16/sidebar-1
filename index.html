@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zidaan16 | Sidebar</title>
+    <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-container">
+                <h3 class="sidebar-title">Sidebar</h3>
+                <i class="fa-solid fa-bars sidebar-menu" tabindex="0" id="sidebar-toggle"></i>
+            </div>
+        </div>
+        <a href="#" class="sidebar-item"><i class="fa-solid fa-house sidebar-icon"></i> Dashboard</a>
+        <a href="https://github.com/Zidaan16" class="sidebar-item"><i class="fa-solid fa-link sidebar-icon"></i> Zidaan16/Sidebar</a>
+        <div class="sidebar-item" id="dropdown-toggle"><i class="fa-solid fa-table-cells-large sidebar-icon"></i></i> Products <i class="fa-solid fa-caret-up dropdown-icon" id="dropdown-caret"></i></div>
+        <div class="dropdown-menu" id="dropdown-menu">
+            <a href="#" class="dropdown-item"><i class="fa-solid fa-plus sidebar-icon"></i> Add product</a>
+            <a href="#" class="dropdown-item"><i class="fa-solid fa-pen sidebar-icon"></i> Edit product</a>
+            <a href="#" class="dropdown-item"><i class="fa-solid fa-trash sidebar-icon"></i> Delete product</a>
+        </div>
+        <a href="#" class="sidebar-item"><i class="fa-solid fa-gear sidebar-icon"></i> Settings</a>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="sidebar.js"></script>
+    <script src="https://kit.fontawesome.com/e42e6d5e29.js" crossorigin="anonymous"></script>
+</body>
+</html>
